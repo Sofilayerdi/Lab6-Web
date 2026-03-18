@@ -85,7 +85,7 @@ const postMessage = async(message) => {
 
 
 getMessages()
-setInterval(getMessages, 2000)
+setInterval(getMessages, 10000)
 
 document.getElementById('send').addEventListener('click', () => {
     const message = document.getElementById('message').value
