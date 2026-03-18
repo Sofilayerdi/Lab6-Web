@@ -1,0 +1,73 @@
+
+h1{
+    text-align: center;
+    color: coral;
+    text-decoration: underline;
+
+}
+
+body {
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#messages {
+    flex: 1;
+    overflow-y: auto;
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+textarea {
+    width: 500px;
+    resize: none;
+    height: 30px;
+    justify-content: center;
+}
+
+#send {
+    background-color: coral; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#send:hover {
+    opacity: 50%;
+}
+
+.me {
+    background-color: lightcoral;
+    color: white;
+    margin-left: auto;
+    border-radius: 20px 0px 20px 20px;
+
+}
+
+.other {
+    background-color: #e4e6eb;
+    margin-right: auto;
+    border-radius: 0px 20px 20px 20px;
+
+}
